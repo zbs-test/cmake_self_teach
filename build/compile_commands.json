@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/build",
+  "command": "/usr/bin/clang++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -o src/CMakeFiles/main.dir/main.cpp.o -c /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/src/main.cpp",
+  "file": "/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/src/main.cpp",
+  "output": "src/CMakeFiles/main.dir/main.cpp.o"
+}
+]

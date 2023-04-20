@@ -1,0 +1,13 @@
+/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/build/CMakeFiles/edit_cache.dir
+/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/build/CMakeFiles/rebuild_cache.dir
+/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/build/src/CMakeFiles/main.dir
+/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/build/src/CMakeFiles/edit_cache.dir
+/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/build/src/CMakeFiles/rebuild_cache.dir
+/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/build/external/CMakeFiles/edit_cache.dir
+/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/build/external/CMakeFiles/rebuild_cache.dir
+/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/build/docs/CMakeFiles/edit_cache.dir
+/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/build/docs/CMakeFiles/rebuild_cache.dir
+/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/build/test/CMakeFiles/edit_cache.dir
+/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/build/test/CMakeFiles/rebuild_cache.dir
+/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/build/packaging/CMakeFiles/edit_cache.dir
+/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/build/packaging/CMakeFiles/rebuild_cache.dir
