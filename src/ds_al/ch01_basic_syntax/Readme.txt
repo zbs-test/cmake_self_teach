@@ -1,0 +1,1 @@
+- basic c program overview , about syntax

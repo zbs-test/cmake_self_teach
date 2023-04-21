@@ -1,0 +1,2 @@
+add_subdirectory(ch01_basic_syntax)
+add_subdirectory(ch02_list)
