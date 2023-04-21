@@ -126,6 +126,155 @@ build src/rebuild_cache: phony src/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
+# /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/src/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build src/ds_al/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/build/src/ds_al && /usr/local/Cellar/cmake/3.26.3/bin/ccmake -S/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach -B/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/build
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build src/ds_al/edit_cache: phony src/ds_al/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build src/ds_al/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/build/src/ds_al && /usr/local/Cellar/cmake/3.26.3/bin/cmake --regenerate-during-build -S/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach -B/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/build
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build src/ds_al/rebuild_cache: phony src/ds_al/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/src/ds_al/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ch1
+
+
+#############################################
+# Order-only phony target for ch1
+
+build cmake_object_order_depends_target_ch1: phony || src/ds_al/ch01_basic_syntax/CMakeFiles/ch1.dir
+
+build src/ds_al/ch01_basic_syntax/CMakeFiles/ch1.dir/main.c.o: C_COMPILER__ch1_unscanned_Debug /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/src/ds_al/ch01_basic_syntax/main.c || cmake_object_order_depends_target_ch1
+  DEP_FILE = src/ds_al/ch01_basic_syntax/CMakeFiles/ch1.dir/main.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = src/ds_al/ch01_basic_syntax/CMakeFiles/ch1.dir
+  OBJECT_FILE_DIR = src/ds_al/ch01_basic_syntax/CMakeFiles/ch1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ch1
+
+
+#############################################
+# Link the executable src/ds_al/ch01_basic_syntax/ch1
+
+build src/ds_al/ch01_basic_syntax/ch1: C_EXECUTABLE_LINKER__ch1_Debug src/ds_al/ch01_basic_syntax/CMakeFiles/ch1.dir/main.c.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = src/ds_al/ch01_basic_syntax/CMakeFiles/ch1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/ds_al/ch01_basic_syntax/ch1
+  TARGET_PDB = ch1.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build src/ds_al/ch01_basic_syntax/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/build/src/ds_al/ch01_basic_syntax && /usr/local/Cellar/cmake/3.26.3/bin/ccmake -S/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach -B/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/build
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build src/ds_al/ch01_basic_syntax/edit_cache: phony src/ds_al/ch01_basic_syntax/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build src/ds_al/ch01_basic_syntax/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/build/src/ds_al/ch01_basic_syntax && /usr/local/Cellar/cmake/3.26.3/bin/cmake --regenerate-during-build -S/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach -B/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/build
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build src/ds_al/ch01_basic_syntax/rebuild_cache: phony src/ds_al/ch01_basic_syntax/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/src/ds_al/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test
+
+
+#############################################
+# Order-only phony target for test
+
+build cmake_object_order_depends_target_test: phony || src/ds_al/ch02_list/CMakeFiles/test.dir
+
+build src/ds_al/ch02_list/CMakeFiles/test.dir/test.c.o: C_COMPILER__test_unscanned_Debug /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/src/ds_al/ch02_list/test.c || cmake_object_order_depends_target_test
+  DEP_FILE = src/ds_al/ch02_list/CMakeFiles/test.dir/test.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = src/ds_al/ch02_list/CMakeFiles/test.dir
+  OBJECT_FILE_DIR = src/ds_al/ch02_list/CMakeFiles/test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test
+
+
+#############################################
+# Link the executable src/ds_al/ch02_list/test
+
+build src/ds_al/ch02_list/test: C_EXECUTABLE_LINKER__test_Debug src/ds_al/ch02_list/CMakeFiles/test.dir/test.c.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = src/ds_al/ch02_list/CMakeFiles/test.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/ds_al/ch02_list/test
+  TARGET_PDB = test.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build src/ds_al/ch02_list/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/build/src/ds_al/ch02_list && /usr/local/Cellar/cmake/3.26.3/bin/ccmake -S/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach -B/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/build
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build src/ds_al/ch02_list/edit_cache: phony src/ds_al/ch02_list/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build src/ds_al/ch02_list/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/build/src/ds_al/ch02_list && /usr/local/Cellar/cmake/3.26.3/bin/cmake --regenerate-during-build -S/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach -B/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/build
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build src/ds_al/ch02_list/rebuild_cache: phony src/ds_al/ch02_list/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
 # /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/CMakeLists.txt
 # =============================================================================
 
@@ -243,7 +392,11 @@ build packaging/rebuild_cache: phony packaging/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build ch1: phony src/ds_al/ch01_basic_syntax/ch1
+
 build main: phony src/main
+
+build test: phony src/ds_al/ch02_list/test
 
 # =============================================================================
 # Folder targets.
@@ -281,7 +434,28 @@ build packaging/all: phony
 #############################################
 # Folder: /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/build/src
 
-build src/all: phony src/main
+build src/all: phony src/main src/ds_al/all
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/build/src/ds_al
+
+build src/ds_al/all: phony src/ds_al/ch01_basic_syntax/all src/ds_al/ch02_list/all
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/build/src/ds_al/ch01_basic_syntax
+
+build src/ds_al/ch01_basic_syntax/all: phony src/ds_al/ch01_basic_syntax/ch1
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/build/src/ds_al/ch02_list
+
+build src/ds_al/ch02_list/all: phony src/ds_al/ch02_list/test
 
 # =============================================================================
 
@@ -297,14 +471,14 @@ build test/all: phony
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/CMakeLists.txt /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/cmake/BuildInfo.cmake /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/docs/CMakeLists.txt /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/external/CMakeLists.txt /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/packaging/CMakeLists.txt /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/src/CMakeLists.txt /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/test/CMakeLists.txt /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeCInformation.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeCXXInformation.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeGenericSystem.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Compiler/AppleClang-C.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Compiler/AppleClang-CXX.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Compiler/Clang.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Compiler/GNU.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Platform/Apple-Clang-C.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Platform/Apple-Clang.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Platform/Darwin-Initialize.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Platform/Darwin.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.26.3/CMakeCCompiler.cmake CMakeFiles/3.26.3/CMakeCXXCompiler.cmake CMakeFiles/3.26.3/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/CMakeLists.txt /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/cmake/BuildInfo.cmake /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/docs/CMakeLists.txt /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/external/CMakeLists.txt /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/packaging/CMakeLists.txt /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/src/CMakeLists.txt /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/src/ds_al/CMakeLists.txt /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/src/ds_al/ch01_basic_syntax/CMakeLists.txt /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/src/ds_al/ch02_list/CMakeLists.txt /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/test/CMakeLists.txt /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeCInformation.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeCXXInformation.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeGenericSystem.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Compiler/AppleClang-C.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Compiler/AppleClang-CXX.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Compiler/Clang.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Compiler/GNU.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Platform/Apple-Clang-C.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Platform/Apple-Clang.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Platform/Darwin-Initialize.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Platform/Darwin.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.26.3/CMakeCCompiler.cmake CMakeFiles/3.26.3/CMakeCXXCompiler.cmake CMakeFiles/3.26.3/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/CMakeLists.txt /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/cmake/BuildInfo.cmake /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/docs/CMakeLists.txt /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/external/CMakeLists.txt /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/packaging/CMakeLists.txt /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/src/CMakeLists.txt /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/test/CMakeLists.txt /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeCInformation.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeCXXInformation.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeGenericSystem.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Compiler/AppleClang-C.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Compiler/AppleClang-CXX.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Compiler/Clang.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Compiler/GNU.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Platform/Apple-Clang-C.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Platform/Apple-Clang.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Platform/Darwin-Initialize.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Platform/Darwin.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.26.3/CMakeCCompiler.cmake CMakeFiles/3.26.3/CMakeCXXCompiler.cmake CMakeFiles/3.26.3/CMakeSystem.cmake: phony
+build /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/CMakeLists.txt /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/cmake/BuildInfo.cmake /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/docs/CMakeLists.txt /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/external/CMakeLists.txt /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/packaging/CMakeLists.txt /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/src/CMakeLists.txt /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/src/ds_al/CMakeLists.txt /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/src/ds_al/ch01_basic_syntax/CMakeLists.txt /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/src/ds_al/ch02_list/CMakeLists.txt /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/test/CMakeLists.txt /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeCInformation.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeCXXInformation.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeGenericSystem.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Compiler/AppleClang-C.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Compiler/AppleClang-CXX.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Compiler/Clang.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Compiler/GNU.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Platform/Apple-Clang-C.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Platform/Apple-Clang.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Platform/Darwin-Initialize.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Platform/Darwin.cmake /usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.26.3/CMakeCCompiler.cmake CMakeFiles/3.26.3/CMakeCXXCompiler.cmake CMakeFiles/3.26.3/CMakeSystem.cmake: phony
 
 
 #############################################

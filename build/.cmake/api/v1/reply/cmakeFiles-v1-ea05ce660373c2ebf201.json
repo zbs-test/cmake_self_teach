@@ -153,6 +153,15 @@
 			"path" : "src/CMakeLists.txt"
 		},
 		{
+			"path" : "src/ds_al/CMakeLists.txt"
+		},
+		{
+			"path" : "src/ds_al/ch01_basic_syntax/CMakeLists.txt"
+		},
+		{
+			"path" : "src/ds_al/ch02_list/CMakeLists.txt"
+		},
+		{
 			"path" : "external/CMakeLists.txt"
 		},
 		{

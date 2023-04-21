@@ -4,5 +4,17 @@
   "command": "/usr/bin/clang++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -o src/CMakeFiles/main.dir/main.cpp.o -c /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/src/main.cpp",
   "file": "/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/src/main.cpp",
   "output": "src/CMakeFiles/main.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/build",
+  "command": "/usr/bin/clang -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -o src/ds_al/ch01_basic_syntax/CMakeFiles/ch1.dir/main.c.o -c /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/src/ds_al/ch01_basic_syntax/main.c",
+  "file": "/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/src/ds_al/ch01_basic_syntax/main.c",
+  "output": "src/ds_al/ch01_basic_syntax/CMakeFiles/ch1.dir/main.c.o"
+},
+{
+  "directory": "/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/build",
+  "command": "/usr/bin/clang -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -o src/ds_al/ch02_list/CMakeFiles/test.dir/test.c.o -c /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/src/ds_al/ch02_list/test.c",
+  "file": "/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/src/ds_al/ch02_list/test.c",
+  "output": "src/ds_al/ch02_list/CMakeFiles/test.dir/test.c.o"
 }
 ]

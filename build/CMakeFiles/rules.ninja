@@ -39,6 +39,44 @@ rule CXX_EXECUTABLE_LINKER__main_Debug
 
 
 #############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__ch1_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /usr/bin/clang $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C executable.
+
+rule C_EXECUTABLE_LINKER__ch1_Debug
+  command = $PRE_LINK && /usr/bin/clang $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking C executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__test_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /usr/bin/clang $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C executable.
+
+rule C_EXECUTABLE_LINKER__test_Debug
+  command = $PRE_LINK && /usr/bin/clang $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  description = Linking C executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE

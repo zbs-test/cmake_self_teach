@@ -1,4 +1,4 @@
-# Install script for directory: /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/src
+# Install script for directory: /Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/src/ds_al
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,6 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/build/src/ds_al/cmake_install.cmake")
+  include("/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/build/src/ds_al/ch01_basic_syntax/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/build/src/ds_al/ch02_list/cmake_install.cmake")
 endif()
 

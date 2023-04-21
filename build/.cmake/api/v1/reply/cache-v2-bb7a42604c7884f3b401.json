@@ -703,7 +703,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "6"
+			"value" : "9"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1196,6 +1196,78 @@
 			],
 			"type" : "STATIC",
 			"value" : "/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach"
+		},
+		{
+			"name" : "src-mai_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/build/src"
+		},
+		{
+			"name" : "src-mai_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "src-mai_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/src"
+		},
+		{
+			"name" : "src-main_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/build/src"
+		},
+		{
+			"name" : "src-main_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "src-main_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/src"
 		}
 	],
 	"kind" : "cache",

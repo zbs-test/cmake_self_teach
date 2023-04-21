@@ -230,6 +230,24 @@ cmake_self_teach_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 cmake_self_teach_SOURCE_DIR:STATIC=/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach
 
+//Value Computed by CMake
+src-mai_BINARY_DIR:STATIC=/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/build/src
+
+//Value Computed by CMake
+src-mai_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+src-mai_SOURCE_DIR:STATIC=/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/src
+
+//Value Computed by CMake
+src-main_BINARY_DIR:STATIC=/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/build/src
+
+//Value Computed by CMake
+src-main_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+src-main_SOURCE_DIR:STATIC=/Users/zz/CLionProjects/gitlab/code1/cmake_self_teach/src
+
 
 ########################
 # INTERNAL cache entries
@@ -325,7 +343,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

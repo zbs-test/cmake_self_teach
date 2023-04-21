@@ -9,10 +9,10 @@
 					"childIndexes" : 
 					[
 						1,
-						2,
-						3,
-						4,
-						5
+						5,
+						6,
+						7,
+						8
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -24,17 +24,67 @@
 				},
 				{
 					"build" : "src",
+					"childIndexes" : 
+					[
+						2
+					],
 					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.20"
 					},
 					"parentIndex" : 0,
-					"projectIndex" : 0,
+					"projectIndex" : 1,
 					"source" : "src",
 					"targetIndexes" : 
 					[
+						1
+					]
+				},
+				{
+					"build" : "src/ds_al",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"jsonFile" : "directory-src.ds_al-Debug-3bbc45e80063cb265054.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "src/ds_al"
+				},
+				{
+					"build" : "src/ds_al/ch01_basic_syntax",
+					"jsonFile" : "directory-src.ds_al.ch01_basic_syntax-Debug-64f663003a0a83a362c9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "src/ds_al/ch01_basic_syntax",
+					"targetIndexes" : 
+					[
 						0
+					]
+				},
+				{
+					"build" : "src/ds_al/ch02_list",
+					"jsonFile" : "directory-src.ds_al.ch02_list-Debug-9e9e15d8ed907843474c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "src/ds_al/ch02_list",
+					"targetIndexes" : 
+					[
+						2
 					]
 				},
 				{
@@ -86,30 +136,60 @@
 			"projects" : 
 			[
 				{
+					"childIndexes" : 
+					[
+						1
+					],
 					"directoryIndexes" : 
 					[
 						0,
+						5,
+						6,
+						7,
+						8
+					],
+					"name" : "cmake_self_teach"
+				},
+				{
+					"directoryIndexes" : 
+					[
 						1,
 						2,
 						3,
-						4,
-						5
+						4
 					],
-					"name" : "cmake_self_teach",
+					"name" : "src-main",
+					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2
 					]
 				}
 			],
 			"targets" : 
 			[
 				{
+					"directoryIndex" : 3,
+					"id" : "ch1::@17a48340c5715facaa3b",
+					"jsonFile" : "target-ch1-Debug-4565df138f43c5652fdd.json",
+					"name" : "ch1",
+					"projectIndex" : 1
+				},
+				{
 					"directoryIndex" : 1,
 					"id" : "main::@145eef247bfb46b6828c",
 					"jsonFile" : "target-main-Debug-9aea70e5241cb28311e8.json",
 					"name" : "main",
-					"projectIndex" : 0
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "test::@91af4eb078b1ea6a654c",
+					"jsonFile" : "target-test-Debug-56b2c7af3219c49381e6.json",
+					"name" : "test",
+					"projectIndex" : 1
 				}
 			]
 		}
